@@ -15,7 +15,6 @@ class Solution
     }
     vector<int> rightView(Node *root) 
     {
-        map<int,Node*> r_view;
         vector<int> ans;
         solve(root,ans,0);
         return ans;
